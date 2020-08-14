@@ -26,6 +26,7 @@ const argv = yargs
     aliases: '$0 [cwds...]',
     builder: (args: Argv<{}>) => {
       setter('filefirst', args);
+      setter('filesonly', args);
       setter('addnewline', args);
       setter('usesemicolon', args);
       setter('includecwd', args);

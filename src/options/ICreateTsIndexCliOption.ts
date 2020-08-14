@@ -2,6 +2,7 @@ export interface ICreateTsIndexCliOption {
   cwds: Array<string> | string;
   output: string;
   filefirst: boolean;
+  filesonly: boolean;
   addnewline: boolean;
   usesemicolon: boolean;
   includecwd: boolean;

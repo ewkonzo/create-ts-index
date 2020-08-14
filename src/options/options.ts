@@ -13,6 +13,14 @@ export const options = new Map<TKEY_OF_CLI_OPTIONS, Options>([
     },
   ],
   [
+    'filesonly',
+    {
+      alias: 'fo',
+      describe: 'exports only files, no option false, option true',
+      type: 'boolean',
+    },
+  ],
+  [
     'addnewline',
     {
       alias: 'n',

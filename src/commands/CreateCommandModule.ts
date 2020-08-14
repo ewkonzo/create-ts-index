@@ -183,6 +183,9 @@ export class CreateCommandModule implements ICommandModule {
       const excludePatternFilteredFiles = [...categorized.allFiles].sort();
 
       const sorted = (() => {
+        if(option.filesOnly){
+          return categorized.allFiles;
+        }
         if (option.fileFirst) {
           return categorized.allFiles.concat(excludePatternFilteredDirs);
         }

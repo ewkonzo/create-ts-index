@@ -10,6 +10,9 @@ export interface ICreateTsIndexOption {
   /** enable file first */
   fileFirst: boolean;
 
+  /** enable file first */
+  filesOnly: boolean;
+
   /** add newline on EOF */
   addNewline: boolean;
 

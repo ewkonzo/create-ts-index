@@ -1,5 +1,6 @@
 export enum EN_CLI_OPTION {
   FILEFIRST = 'filefirst',
+  FILES_ONLY = 'filesonly',
   ADD_NEWLINE = 'addnewline',
   USE_SEMICOLON = 'usesemicolon',
   INCLUDE_CWD = 'includecwd',
